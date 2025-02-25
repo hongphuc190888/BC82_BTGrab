@@ -169,7 +169,7 @@ document.querySelector(".btn-inhoadon").onclick = function () {
   document.getElementById("kmDaDi").innerHTML = `${soKm} Km`;
   document.getElementById(
     "thoiGianCanTinh"
-  ).innerHTML = `Chờ ${thoiGianTinh}phút tính tiền ${thoiGianTinh} phút `;
+  ).innerHTML = `Chờ ${thoiGianCho}phút tính tiền ${thoiGianTinh} phút `;
   let tu1Den19Km = 0;
   let tu19TroLen = 0;
   if (soKm <= 19) {
